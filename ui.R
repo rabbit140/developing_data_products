@@ -36,7 +36,11 @@ shinyUI(fluidPage(
                         tabPanel("Top categories", plotOutput("top_categories", height = 600), icon = icon("bar-chart")),
                         tabPanel("Hourly reports", plotOutput("hourly_reports", height = 600), icon = icon("bar-chart")),
                         tabPanel("Density", plotOutput("year_density", height = 600), icon = icon("map-o")),
+<<<<<<< HEAD
                         tabPanel("The nitty-gritty", htmlOutput("nitty"), icon = icon("book"))
+=======
+                        tabPanel("The nitty-gritty", htmlOutput("nitty"))
+>>>>>>> 4dba68cb3d8fd9c0a39d2b25515f7757f5ddfd38
                         )
                         
                   )
