@@ -1,0 +1,9 @@
+name: sf_crime_analysis
+account: slazien
+server: shinyapps.io
+appId: 90484
+bundleId: 403922
+url: https://slazien.shinyapps.io/sf_crime_analysis/
+when: 1459034137.74813
+asMultiple: FALSE
+asStatic: FALSE
