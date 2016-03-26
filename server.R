@@ -135,7 +135,7 @@ shinyServer(function(input, output) {
             str5 <- h4("Data is processed as follows: columns are changed to appropriate data types,
                        3 new columns are addded and finally graphs are made based on processed data.")
             str6 <- h4("To find out more about data processing, visit my GitHub page:")
-            str7 <- h4(a("Link", href = "https://github.com/rabbit140/"))
+            str7 <- h4(a("Link", href = "https://github.com/rabbit140/developing_data_products"))
             HTML(paste(str1, str2, str3, str4, str5, str6, str7, sep = '<br/>'))
             }
       )
